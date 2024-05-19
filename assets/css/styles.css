@@ -71,6 +71,10 @@
     padding-right: 70px;
     margin: auto;  
   }
+  .tel{
+    display: flex;
+    justify-content: center;
+  }
 
 /* layaut*/
 
@@ -152,6 +156,7 @@ p{
     margin: auto;
     display: block;
     padding-top: 20px;
+    
 }  
    
 .boton{
@@ -203,6 +208,16 @@ a {
         grid-template-columns: 100%, auto;
 
     }
+
+    .fono{
+        width: 300px;
+    }
+
+    .tel{
+        display: flex;
+        justify-content: center;
+        width: 400px;
+      }
 
     .carta{
         display: grid;
